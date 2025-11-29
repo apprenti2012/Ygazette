@@ -20,5 +20,5 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         protocol: ftp
         port: 21
-        local-dir: /htdocs/   
+        local-dir: ./htdocs/   
         server-dir: ${{ secrets.FTP_DIR }}    
