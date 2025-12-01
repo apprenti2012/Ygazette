@@ -1,10 +1,6 @@
 p {
   margin-bottom: 1em;
 }
-.flou{
-    filter: blur(15px);
-    pointer-events: none;
-}
 .principale {
     text-decoration: none;
     padding: 20px 30px;
@@ -180,16 +176,65 @@ p {
       display: none;
     }
 
-.popup-contenu {
-  background: #1E1E2F; 
-  padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 0 20px black;
-  text-align: center;
-  width: 800px;       
-  max-width: 90%;     
-  color: white;       
+/* Flou appliqué UNIQUEMENT au contenu */
+.flou {
+    filter: blur(15px);
+    pointer-events: none;
 }
+
+/* Style du popup (invisible au départ) */
+.popup {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    display: none;                  /* Caché par défaut */
+    align-items: center;            /* Centré verticalement */
+    justify-content: center;        /* Centré horizontalement */
+    z-index: 9999;
+    backdrop-filter: blur(2px);
+}
+
+/* Contenu de la fenêtre popup */
+.popup-contenu {
+    background: #1E1E2F;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px black;
+    text-align: center;
+    width: 600px;      /* Largeur raisonnable */
+    max-width: 90%;    /* S’adapte aux écrans petits */
+    color: white;
+}
+
+/* Champ de texte dans le popup */
+.popup-contenu input {
+    width: 80%;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+.popup-contenu button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #0a7024;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.popup-contenu button:hover {
+    background-color: #0d9f36;
+}
+
 .img{
     background-image: url(article/actu_politique/image/img1.jpg);
     background-size: cover;
