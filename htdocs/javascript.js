@@ -43,7 +43,7 @@ document.getElementById("refresh").addEventListener("click", function() {
     const articles = document.querySelectorAll("#articles a"); // tous les liens d’articles  
   articles.forEach(article => {
         const text = article.textContent.toLowerCase();
-        if (input === "" ||text.includes(input)) {
+        if (text.includes(input)) {
             article.style.display = "inline-block";
         } else {
             article.style.display = "none";
