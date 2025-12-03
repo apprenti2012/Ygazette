@@ -1,9 +1,19 @@
 @media(max-width: 750px){
-    *{
+    .principale,
+    .menu-btn,
+    .menu-links,
+    .bouton_cook,
+    .bouton_num,
+    .bouton_plth,
+    .couleur,
+    .acouleur,
+    .liste,
+    .titre_pgph,
+    p{
+        padding: 50%;
         height: 50%;
         width: 50%;
         font-size: 50%;
-
     }
 }
 
