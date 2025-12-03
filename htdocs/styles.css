@@ -1,8 +1,8 @@
 @media(max-width: 750px){
     html{
-        padding: 50%;
         height: 50%;
         width: 50%;
+        font-size: 50%;
 
     }
 }
