@@ -9,8 +9,11 @@
     .acouleur,
     .liste,
     .titre_pgph,
+    #searchBar,
+    #refresh,
     p{
         font-size: 50%;
+        margin: 50%;
     }
 }
 
