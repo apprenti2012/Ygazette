@@ -1,19 +1,5 @@
 @media(max-width: 750px){
-    .principale,
-    .menu-btn,
-    .menu-links,
-    .bouton_cook,
-    .bouton_num,
-    .bouton_plth,
-    .couleur,
-    .acouleur,
-    .liste,
-    .titre_pgph,
-    #searchBar,
-    #refresh,
-    p{
-        font-size: 50%;
-    }
+   font-size: 30%;
 }
 
 p {
