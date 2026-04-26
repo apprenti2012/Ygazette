@@ -3,7 +3,7 @@ const nav = `
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#2b2b50; font-family: Arial, sans-serif;">
     <div class="container-fluid">
         <a class="navbar-brand" href="/index.html">
-            <img src="favicon.png" width="30px" height="30px" style="border-radius: 6px;">
+            <img src="/favicon.png" width="30px" height="30px" style="border-radius: 6px;">
             Ygazette
         </a>
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
@@ -12,7 +12,7 @@ const nav = `
         <div class="collapse navbar-collapse" id="menu">
             <ul class="navbar-nav">
                 <li class="nav-item"><a href="/index.html" class="nav-link">Accueil</a></li>
-                <li class="nav-item"><a href="article/déjà_paru.html" class="nav-link">Article</a></li>
+                <li class="nav-item"><a href="/article/déjà_paru.html" class="nav-link">Article</a></li>
                 <li class="nav-item"><a href="/Plus d'information.html" class="nav-link">+d'infos</a></li>
             </ul>
         </div>
