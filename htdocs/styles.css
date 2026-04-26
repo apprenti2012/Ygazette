@@ -1,7 +1,6 @@
-@media(max-width: 750px){
-   font-size: 30%;
+body{
+    background-color: #1E1E2F !important;
 }
-
 p {
   margin-bottom: 1em;
 }
