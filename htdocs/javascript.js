@@ -24,12 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-const menuBtn = document.getElementById("menuBtn");
-const menuLinks = document.getElementById("menuLinks");
-
-menuBtn.addEventListener("click", () => {
-  menuLinks.classList.toggle("show");
-});
 document.addEventListener("DOMContentLoaded", function() {
   const contenu = document.getElementById("main-content"); // wrapper du contenu
   const popup = document.getElementById("popup");
